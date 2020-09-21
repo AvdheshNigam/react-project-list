@@ -24,7 +24,7 @@ const userTable = (props) => {
                   <td>{username}</td>
                   <td>
                     <button>Delete</button>
-                    <button>Edit</button>
+                    <button onClick={() => props.deleteUser(id)}>Edit</button>
                   </td>
                 </tr>
               )
